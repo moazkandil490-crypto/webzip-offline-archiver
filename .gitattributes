@@ -1,0 +1,9 @@
+# Project-specific overrides
+# Exclude build artifacts
+*.json linguist-detectable=false
+vendor/* linguist-vendored
+public/* linguist-vendored
+src/**/*.rs linguist-detectable
+yarn.lock linguist-generated
+*.md linguist-documentation  
+*.gif binary
